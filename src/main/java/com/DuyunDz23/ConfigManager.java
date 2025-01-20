@@ -6,6 +6,7 @@ import org.bukkit.plugin.Plugin;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class ConfigManager {
     private final Plugin plugin;
@@ -43,6 +44,11 @@ public class ConfigManager {
 
     public boolean getBoolean(String path, boolean defaultValue) {
         return config.getBoolean(path, defaultValue);
+    }
+
+    // Phương thức getList mới để lấy danh sách
+    public List<String> getList(String path) {
+        return config.getStringList(path);
     }
 
     // Đặt giá trị trong config

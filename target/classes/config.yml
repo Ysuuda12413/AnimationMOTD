@@ -2,7 +2,7 @@
 motd: "&aChào mừng đến với server của chúng tôi!"
 animation:
   enabled: true
-  delay: 5
+  delay: 5 #Giây
   frames:
     - "&6Chào mừng đến với server của chúng tôi!"
     - "&eServer hay nhất, hãy tham gia ngay!"

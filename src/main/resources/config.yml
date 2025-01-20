@@ -1,0 +1,9 @@
+# Config file cho plugin Animated MOTD
+motd: "&aChào mừng đến với server của chúng tôi!"
+animation:
+  enabled: true
+  delay: 5
+  frames:
+    - "&6Chào mừng đến với server của chúng tôi!"
+    - "&eServer hay nhất, hãy tham gia ngay!"
+    - "&aSự kiện đặc biệt vào cuối tuần này!"

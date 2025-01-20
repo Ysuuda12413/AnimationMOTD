@@ -1,0 +1,17 @@
+name: AnimatedMOTD
+version: '1.0-SNAPSHOT'
+main: com.DuyunDz23.AnimatedMOTD
+api-version: '1.21'
+load: STARTUP
+authors: [ DuyunDz23 ]
+description: Just New Plugin =>>
+website: nohello.com/en
+commands:
+  animatedmotd:
+    description: Reloads the MOTD configuration
+    permission: animatedmotd.reload
+    usage: /animatedmotd reload
+permissions:
+  animatedmotd.reload:
+    description: Cho phép reload cấu hình MOTD
+    default: op
